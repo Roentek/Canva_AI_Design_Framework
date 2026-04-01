@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(ren:*)",
+      "Bash(mv:*)",
+      "Bash(grep:*)",
+      "Bash(mkdir:*)",
+      "Bash(exit)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude --version)",
+      "Bash(claude --debug)",
+      "Bash(where npm)",
+      "Bash(npm install:*)",
+      "Bash(npm cache clean:*)",
+      "Bash(npm run:*)",
+      "Bash(git remote set-url:*)",
+      "mcp__claude_ai_Tavily__tavily_search",
+      "mcp__claude_ai_Supabase__supabase_query",
+      "mcp__claude_ai_OpenRouter__openrouter_query"
+    ],
+    "deny": []
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "tavily-mcp",
+    "supabase-mcp",
+    "openrouter-mcp",
+    "canva-mcp"
+  ]
+}
