@@ -23,8 +23,6 @@
   },
   "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
-    "tavily-mcp",
-    "supabase-mcp",
     "openrouter-mcp",
     "canva-mcp"
   ]

@@ -1,26 +1,5 @@
 {
   "mcpServers": {
-    "tavily-mcp": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "tavily-mcp@latest"
-      ],
-      "env": {
-        "TAVILY_API_KEY": "${TAVILY_API_KEY}",
-        "DEFAULT_PARAMETERS": "{\"include_images\": true, \"max_results\": 15, \"search_depth\": \"advanced\"}"
-      }
-    },
-    "supabase-mcp": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@supabase/mcp-server-supabase@latest"
-      ],
-      "env": {
-        "SUPABASE_ACCESS_TOKEN": "${SUPABASE_API_PAT}"
-      }
-    },
     "openrouter-mcp": {
       "command": "npx",
       "args": [
@@ -32,12 +11,13 @@
         "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}"
       }
     },
-    "canva-mcp": {
+    "canva-dev": {
+      "type": "stdio",
       "command": "npx",
       "args": [
         "-y",
-        "mcp-remote@latest",
-        "https://mcp.canva.com/mcp"
+        "@canva/cli@latest",
+        "mcp"
       ]
     }
   }
