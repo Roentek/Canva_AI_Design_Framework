@@ -24,7 +24,6 @@ User (natural language) --> Claude + CLAUDE.md context --> Canva MCP / Connect A
 | -------- | --------- |
 | `canva-mcp` | Design creation, editing, search, export, asset management via Canva |
 | `tavily-mcp` | Web research for design inspiration, content, and references |
-| `supabase-mcp` | Database storage for design metadata, templates, and workflows |
 | `openrouter-mcp` | Multi-model AI for content generation (copy, descriptions) |
 
 ---
